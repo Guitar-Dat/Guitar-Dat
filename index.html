@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -10,39 +9,54 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f2f2f2;
+      background-color: #f9f9f9;
     }
     header {
-      background-color: #333;
+      background-color: #222;
       color: white;
-      padding: 20px;
+      padding: 30px;
       text-align: center;
     }
     .container {
       padding: 20px;
+      max-width: 1000px;
+      margin: auto;
     }
-    .info {
-      margin-bottom: 20px;
+    .info, .product {
       background: white;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
     }
-    .product {
-      background: white;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      margin-bottom: 20px;
+    .product img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .buy-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .social {
+      margin-top: 10px;
+    }
+    .social a {
+      display: inline-block;
+      margin-right: 10px;
+      text-decoration: none;
+      color: #333;
     }
     footer {
       text-align: center;
-      background-color: #333;
+      background-color: #222;
       color: white;
-      padding: 10px;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
+      padding: 15px;
     }
   </style>
 </head>
@@ -56,20 +70,35 @@
     <div class="info">
       <h2>Thông tin liên hệ</h2>
       <p><strong>Điện thoại:</strong> 0909512375</p>
+      <p><strong>Email:</strong> guitar.dat@gmail.com</p>
+      <p><strong>Facebook:</strong> <a href="https://facebook.com/guitardat" target="_blank">facebook.com/guitardat</a></p>
+      <p><strong>Zalo:</strong> 0909512375</p>
       <p><strong>Địa chỉ:</strong> Lê Văn Quới, Hồ Chí Minh</p>
       <p><strong>Thời gian hoạt động:</strong> Luôn hoạt động</p>
     </div>
 
     <div class="product">
       <h3>Đàn Guitar Acoustic Cơ Bản</h3>
+      <img src="https://via.placeholder.com/600x300?text=Guitar+Acoustic" alt="Guitar Acoustic Cơ Bản">
       <p>Giá: 1.100.000 VND</p>
       <p>Phù hợp cho người mới bắt đầu. Gỗ tốt, âm thanh chuẩn, dễ chơi.</p>
+      <a class="buy-button" href="https://zalo.me/0909512375" target="_blank">Mua ngay qua Zalo</a>
     </div>
 
     <div class="product">
       <h3>Đàn Guitar Giá Rẻ Tập Chơi</h3>
+      <img src="https://via.placeholder.com/600x300?text=Guitar+Tập+Chơi" alt="Guitar Giá Rẻ Tập Chơi">
       <p>Giá: 950.000 VND</p>
       <p>Thiết kế đẹp, âm thanh ổn định, tiết kiệm chi phí cho người mới.</p>
+      <a class="buy-button" href="https://zalo.me/0909512375" target="_blank">Mua ngay qua Zalo</a>
+    </div>
+
+    <div class="product">
+      <h3>Đàn Guitar Classic Dây Nylon</h3>
+      <img src="https://via.placeholder.com/600x300?text=Guitar+Classic" alt="Guitar Classic Nylon">
+      <p>Giá: 1.050.000 VND</p>
+      <p>Đàn dây nylon êm tay, phù hợp chơi nhạc trữ tình và cổ điển.</p>
+      <a class="buy-button" href="https://zalo.me/0909512375" target="_blank">Mua ngay qua Zalo</a>
     </div>
   </div>
 
